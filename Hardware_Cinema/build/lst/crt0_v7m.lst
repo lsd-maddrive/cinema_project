@@ -1,7 +1,7 @@
-ARM GAS  /tmp/ccuhl9By.s 			page 1
+ARM GAS  /tmp/cccOu4J7.s 			page 1
 
 
-   1              	# 1 "/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S"
+   1              	# 1 "/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S"
    1              	/*
    1              	...
    0              	
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
   51              	/*===========================================================================*/
   52              	/* Module pre-compile time settings.                                         */
   53              	/*===========================================================================*/
-ARM GAS  /tmp/ccuhl9By.s 			page 2
+ARM GAS  /tmp/cccOu4J7.s 			page 2
 
 
   54              	
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  108              	 * @brief   Stack segments initialization switch.
  109              	 */
  110              	#if !defined(CRT0_INIT_STACKS) || defined(__DOXYGEN__)
-ARM GAS  /tmp/ccuhl9By.s 			page 3
+ARM GAS  /tmp/cccOu4J7.s 			page 3
 
 
  111              	#define CRT0_INIT_STACKS                    TRUE
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  165              	/*===========================================================================*/
  166              	/* Code section.                                                             */
  167              	/*===========================================================================*/
-ARM GAS  /tmp/ccuhl9By.s 			page 4
+ARM GAS  /tmp/cccOu4J7.s 			page 4
 
 
  168              	
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  222              	                movw    r1, #SCB_CPACR & 0xFFFF
  223              	                movt    r1, #SCB_CPACR >> 16
  224              	                str     r0, [r1]
-ARM GAS  /tmp/ccuhl9By.s 			page 5
+ARM GAS  /tmp/cccOu4J7.s 			page 5
 
 
  225              	                dsb
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  279              	#endif
  280              	
  281              	#if CRT0_INIT_DATA == TRUE
-ARM GAS  /tmp/ccuhl9By.s 			page 6
+ARM GAS  /tmp/cccOu4J7.s 			page 6
 
 
  282              	                /* Data initialization. Note, it assumes that the DATA size
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  336              	finiloop:
  337 0090 AC42     	                cmp     r4, r5
  338 0092 03DA     	                bge     endfiniloop
-ARM GAS  /tmp/ccuhl9By.s 			page 7
+ARM GAS  /tmp/cccOu4J7.s 			page 7
 
 
  339 0094 54F8041B 	                ldr     r1, [r4], #4
@@ -373,21 +373,21 @@ ARM GAS  /tmp/ccuhl9By.s 			page 1
  346      00000000 
  346      00000000 
  346      00000000 
-ARM GAS  /tmp/ccuhl9By.s 			page 8
+ARM GAS  /tmp/cccOu4J7.s 			page 8
 
 
 DEFINED SYMBOLS
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:185    .text:0000000000000000 $t
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:188    .text:0000000000000000 Reset_Handler
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:263    .text:0000000000000034 msloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:274    .text:0000000000000042 psloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:287    .text:0000000000000052 dloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:301    .text:0000000000000066 bloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:320    .text:000000000000007c initloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:326    .text:0000000000000088 endinitloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:336    .text:0000000000000090 finiloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:342    .text:000000000000009c endfiniloop
-/home/shnuer/ChibiStudio/chibios176/os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:346    .text:00000000000000a0 $d
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:185    .text:0000000000000000 $t
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:188    .text:0000000000000000 Reset_Handler
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:263    .text:0000000000000034 msloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:274    .text:0000000000000042 psloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:287    .text:0000000000000052 dloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:301    .text:0000000000000066 bloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:320    .text:000000000000007c initloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:326    .text:0000000000000088 endinitloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:336    .text:0000000000000090 finiloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:342    .text:000000000000009c endfiniloop
+/home/alex/ChibiStudio/chibios176//os/common/startup/ARMCMx/compilers/GCC/crt0_v7m.S:346    .text:00000000000000a0 $d
 
 UNDEFINED SYMBOLS
 __main_stack_end__
